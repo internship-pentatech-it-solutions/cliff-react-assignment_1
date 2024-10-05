@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list{
+  @apply px-4 py-3 hover:bg-gray-700 border-b border-gray-600;
+}
+
+.text{
+  @apply text-center mt-48 font-sans font-semibold text-gray-800 text-6xl 
+}
