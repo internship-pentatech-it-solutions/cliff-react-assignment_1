@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .list{
-  @apply px-4 py-3 hover:bg-gray-700 border-b border-gray-600;
+  @apply px-4 py-3 hover:bg-gray-700 border-b border-gray-600 font-semibold;
 }
 
 .text{
   @apply text-center mt-48 font-sans font-semibold text-gray-800 text-6xl 
+}
+
+button{
+  @apply font-sans font-semibold mt-4  mr-2 p-2  rounded-lg border border-gray-700 border-b-4 hover:text-white hover:bg-gray-700 duration-300
 }
